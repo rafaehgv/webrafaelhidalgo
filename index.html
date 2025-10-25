@@ -4,11 +4,16 @@
 	<meta charset="utf-8">
 	<title>Pagina web de Rafael Hidalgo GV</title>
 	<style>
-		/* fondo amarillo para toda la página */
+		/* fondo con franjas verticales blancas y azul (estilo Málaga CF) */
 		html, body {
 			height: 100%;
 			margin: 0;
-			background-color: yellow;
+			/* franjas: 40px blanco, 40px azul; ajustar anchura cambiando 40px */
+			background: repeating-linear-gradient(
+				90deg,
+				#ffffff 0 40px,
+				#2b9bd3 40px 80px
+			);
 		}
 	</style>
 </head>
