@@ -15,9 +15,117 @@
 				#2b9bd3 40px 80px
 			);
 		}
+
+		/* nuevo estilo para la tarjeta de perfil */
+		.profile {
+			max-width: 900px;
+			margin: 40px auto;
+			background: rgba(255,255,255,0.95);
+			border-radius: 8px;
+			padding: 24px;
+			box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+			font-family: Arial, sans-serif;
+			color: #0b3b5e;
+		}
+		.header {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+		}
+		.avatar {
+			width: 88px;
+			height: 88px;
+			border-radius: 8px;
+			background: #e6f2fb;
+			flex-shrink: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-weight: bold;
+			color: #2b9bd3;
+		}
+		h1 { margin: 0 0 6px 0; font-size: 20px; }
+		.subtitle { margin: 0; color: #0a5a8f; font-size: 14px; }
+		.section { margin-top: 18px; }
+		.section h3 { margin: 0 0 8px 0; font-size: 16px; color: #073a57; }
+		.skills { display:flex; flex-wrap:wrap; gap:8px; }
+		.skill { background:#eef8ff; color:#0b5e88; padding:6px 10px; border-radius:16px; font-size:13px; }
+		.small { font-size:13px; color:#234e6a; }
+		.note { margin-top:12px; font-size:13px; color:#234e6a; }
 	</style>
 </head>
 <body>
-	Pagina web de Rafael Hidalgo GV
+	<div class="profile" role="region" aria-label="Perfil profesional">
+		<div class="header">
+			<div class="avatar">RH</div>
+			<div>
+				<h1>Rafael Hidalgo García Villanova</h1>
+				<p class="subtitle">Perfil financiero | Análisis de datos financieros · FP&A · FinTech · Reporting para equipos tecnológicos</p>
+				<p class="small">
+					LinkedIn: <a href="https://linkedin.com/in/rafael-hidalgo-garcia-villanova" target="_blank" rel="noopener">linkedin.com/in/rafael-hidalgo-garcia-villanova</a>
+					• Email: tu-email@ejemplo.com (reemplaza)
+				</p>
+			</div>
+		</div>
+
+		<div class="section">
+			<h3>Resumen profesional</h3>
+			<p class="small">
+				Borrador: Profesional financiero con experiencia en análisis cuantitativo, planificación y control presupuestario,
+				andamiendo de reporting para equipos técnicos y gestión de proyectos transversales entre finanzas y producto.
+				Capacidad probada para transformar datos en métricas accionables, automatizar procesos de reporting y colaborar con equipos de ingeniería y producto para impulsar decisiones basadas en datos.
+			</p>
+			<p class="note">Sustituye este resumen por el extracto de tu LinkedIn o confirma para que lo redacte con tus datos reales.</p>
+		</div>
+
+		<div class="section">
+			<h3>Habilidades destacadas</h3>
+			<div class="skills">
+				<span class="skill">Análisis financiero</span>
+				<span class="skill">FP&A</span>
+				<span class="skill">SQL</span>
+				<span class="skill">Python (pandas)</span>
+				<span class="skill">Power BI / Tableau</span>
+				<span class="skill">Excel avanzado</span>
+				<span class="skill">Automatización de reporting</span>
+				<span class="skill">Modelado financiero</span>
+				<span class="skill">Colaboración ágil con equipos técnicos</span>
+			</div>
+		</div>
+
+		<div class="section">
+			<h3>Experiencia relevante (resumen)</h3>
+			<p class="small">
+				• Financial Analyst / FP&A — Empresa X (Años): Responsable de reporting mensual, modelado de forecast y dashboards para dirección.
+				<br>
+				• Analista de datos financieros — Empresa Y (Años): Implementación de pipelines SQL y automatización de informes con reducción de tiempo de entrega.
+			</p>
+			<p class="note">Reemplaza con los cargos, empresas, fechas y logros cuantitativos de tu LinkedIn.</p>
+		</div>
+
+		<div class="section">
+			<h3>Educación y certificaciones</h3>
+			<p class="small">Grado/Máster en Economía, Finanzas o similar — Universidad (año). Certificaciones: CFA/CFP/Power BI/Google Data Analytics (si aplica).</p>
+		</div>
+
+		<div class="section">
+			<h3>Proyectos y ejemplos de impacto</h3>
+			<p class="small">
+				- Proyecto: Automatización de reporting financiero con SQL + Power BI — reducción del 50% en tiempo de preparación.
+				<br>
+				- Proyecto: Integración de métricas financieras en pipelines de producto para pricing dinámico.
+			</p>
+		</div>
+
+		<div class="section">
+			<h3>Próximo paso</h3>
+			<p class="small">Opción A: Pega aquí el texto completo de tu LinkedIn (extracto, experiencia y educación) y lo integro exactamente en la web. Opción B: Indícame que redacte un perfil final usando los puntos clave que quieras destacar y lo adaptaré a un tono dirigido a empresas tecnológicas.</p>
+		</div>
+	</div>
+
+	<!-- texto original de la página -->
+	<div style="text-align:center; margin-top:12px; color:#073a57; font-family: Arial, sans-serif;">
+		Pagina web de Rafael Hidalgo GV
+	</div>
 </body>
 </html>
